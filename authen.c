@@ -37,7 +37,7 @@ int main(int argc, char const *argv[])
 	int sockfd, clientfd;
 	socklen_t clen;
 	struct sockaddr_in saddr, caddr;
-	unsigned short port = 8784;
+	unsigned short port = 8001;
 	char mess[1000];
 
 	//creating socket
